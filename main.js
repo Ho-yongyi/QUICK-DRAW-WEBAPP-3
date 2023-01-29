@@ -68,7 +68,7 @@ function check_sketch()
     time_counter = time_counter + 1;
     document.getElementById("Time").innerHTML = time_counter;
     console.log(time_counter);
-    if(time_counter > 400)
+    if(time_counter > 1000)
     {
         time_counter = 0;
         timer_check = "Completed";
