@@ -1,0 +1,19 @@
+body
+{
+    background-color: rgb(102, 102, 143);
+}
+#Score
+{
+    font-size: 25px;
+    margin-left: -70%;
+}
+#Time
+{
+    font-size: 25px;
+    margin-right: 10%;
+    float: right;
+}
+#sketch
+{
+    color: rgb(5, 52, 5);
+}
