@@ -21,6 +21,7 @@ function setup()
     canvas.mouseReleased(classifyCanvas);
     synth = window.speechSynthesis;
     document.getElementById("sketch").innerHTML = 'Sketch To Be Drawn: ' + sketch;
+    document.getElementById("Score")/innerHTML = 'Score: 0';
 }
 function draw()
 {
